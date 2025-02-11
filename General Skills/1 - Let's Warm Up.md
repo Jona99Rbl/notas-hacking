@@ -1,10 +1,18 @@
 ### Descripción
 If I told you a word started with 0x70 in hexadecimal, what would it start with in ASCII?
-
 ### Solución
-Para resolver esto, se requiere de poder convertir el número hexadecimal 0x70 a su carácter en ASCII, para lo cual podemos utilizar una página como lo es **rapidtables** (https://www.rapidtables.com/), donde solo tendremos que ingresar el número hexadecimal y este nos podrá hacer la conversión para ASCII, tal como se muestra en la siguiente imagen:
+Para resolver esto, se requiere de poder convertir el número hexadecimal 0x70 a su carácter en ASCII, para lo cual podemos utilizar una página como lo es **rapidtables** (https://www.rapidtables.com/), donde solo tendremos que ingresar el número hexadecimal y este nos podrá hacer la conversión para ASCII, tal como se muestra a continuación:
 
-![[Pasted image 20250209134839.png]]
+```
+From > Hexadecimal
+To > Text
+
+Character Encoding > ASCII
+
+Hex Code > 70
+
+Result > p
+```
 
 Por lo que ahora obtenemos el resultado que es "**p**", resultando en nuestra siguiente bandera:
 ```

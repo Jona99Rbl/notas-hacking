@@ -21,7 +21,12 @@ Por lo que una vez realizada esa tarea, obtendremos la siguiente bandera:
 picoCTF{l3arn_th3_r0p35}
 ```
 ### Notas Adicionales
+También se puede utilizar la consola en Linux, donde se digita la siguiente secuencia:
 
+```shell
+the_robx-picoctf@webshell:~$ echo bDNhcm5fdGgzX3IwcDM1 | base64 -d
+l3arn_th3_r0p35
+```
 ### Referencias
 https://www.certsuperior.com/que-significa-base-64/
 https://developer.mozilla.org/es/docs/Glossary/Base64

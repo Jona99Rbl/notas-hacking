@@ -166,5 +166,9 @@ Se pudo haber ahorrado la búsqueda manual, si se empleaba el comando grep, arro
 the_robx-picoctf@webshell:~$ strings static | grep pico
 picoCTF{d15a5m_t34s3r_1e6a7731}
 ```
+
+Para ejecutar un Bash, se usa **./** o **bash** directamente.
+
+Tambien se puede revisar con **nano**.
 ### Referencias
 https://linux.die.net/man/1/strings

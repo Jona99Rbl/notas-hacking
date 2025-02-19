@@ -43,7 +43,7 @@ picoplayer@challenge:~$ ls
 useless
 ```
 
-Como solo tenemos un archivo, usamos **cat** para averiguar que es lo que contiene, lo cual resulta hacer una calculadora básica.
+Como solo tenemos un archivo, usamos **cat** para averiguar que es lo que contiene, lo cual resulta ser una calculadora básica.
 
 ```shell
 picoplayer@challenge:~$ cat useless

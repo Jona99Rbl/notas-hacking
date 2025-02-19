@@ -65,6 +65,11 @@ Lo cual nos arroja la bandera que estábamos buscando:
 picoCTF{l3v3l_up!_t4k3_4_r35t!_524e3dc4}
 ```
 ### Notas Adicionales
+También se pudo haber obtenido la bandera ejecutando el archivo fang-of-haynekhtnamet de la siguiente manera:
 
+```shell
+the_robx-picoctf@webshell:~/Addadshashanammu/Almurbalarammi/Ashalmimilkala/Assurnabitashpi/Maelkashishi/Onnissiralis/Ularradallaku$ ./fang-of-haynekhtnamet
+*ZAP!* picoCTF{l3v3l_up!_t4k3_4_r35t!_524e3dc4}
+```
 ### Referencias
 https://linux.die.net/man/1/strings

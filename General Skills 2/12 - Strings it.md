@@ -67,6 +67,8 @@ Obteniendo la bandera que nos da la solución a este código, la cual es:
 picoCTF{5tRIng5_1T_7f766a23}
 ```
 ### Notas Adicionales
+El comando **file** me permite saber que tipo de archivo es, **ls -la** permite saber los permisos del archivo.
 
+**strings -n 10 archivo** -> solo me da las cadenas de máximo 10 caracteres por ejemplo
 ### Referencias
 https://linux.die.net/man/1/strings

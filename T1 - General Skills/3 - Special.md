@@ -78,7 +78,6 @@ Como se pudo comprobar mientras el primero comando fue ignorado y no dio resulta
 ```
 picoCTF{5p311ch3ck_15_7h3_w0r57_3befb794}
 ```
-
 ### Notas Adicionales
 
 ### Referencias

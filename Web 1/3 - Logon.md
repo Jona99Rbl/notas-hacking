@@ -45,7 +45,9 @@ Por lo que ahora ya tenemos la bandera que soluciona el reto y esta es:
 picoCTF{th3_c0nsp1r4cy_l1v3s_0c98aacc}
 ```
 ### Notas Adicionales
-
+404 - Error
+200 - Todo Ok
+307 - Servidor falló
 ### Referencias
 https://developer.mozilla.org/es/docs/Glossary/HTTPS
 https://developer.mozilla.org/es/docs/Web/HTTP/Reference/Headers

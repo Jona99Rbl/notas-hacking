@@ -105,6 +105,6 @@ Por lo que hemos obtenido la bandera que da solución a este reto:
 picoCTF{s0m3_SQL_fb3fe2ad}
 ```
 ### Notas Adicionales
-
+También se puede usar la forma de "admin'-- " para obtener el mismo resultado.
 ### Referencias
 https://www.w3schools.com/sql/sql_injection.asp

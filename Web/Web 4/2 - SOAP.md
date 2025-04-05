@@ -130,3 +130,4 @@ picoCTF{XML_3xtern@l_3nt1t1ty_0e13660d}
 ### Notas Adicionales
 
 ### Referencias
+https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/XXE%20Injection/README.md

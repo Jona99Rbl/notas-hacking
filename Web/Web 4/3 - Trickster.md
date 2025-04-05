@@ -71,7 +71,9 @@ Arrojándonos el siguiente resultado en pantalla:
 
 Por último, para ver el contenido del archivo .txt de nombre raro, se emplea el comando **cat**:
 
+```
 http://atlas.picoctf.net:64745/uploads/trickster.png.php?cmd=cat%20../GQ4DOOBVMMYGK.txt
+```
 
 Mostrándonos lo siguiente:
 

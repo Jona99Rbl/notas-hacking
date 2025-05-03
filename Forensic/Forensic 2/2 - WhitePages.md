@@ -76,7 +76,11 @@ Obteniendo así la bandera que da solución a este reto:
 picoCTF{not_all_spaces_are_created_equal_7100860b0fa779a5bd8ce29f24f586dc}
 ```
 ### Notas Adicionales
+Se puede usar lo siguiente también en caso de no querer hacer un script de python:
 
+```
+sed 's/\xe2\x80\x83/0/g' whitepages.txt | sed s/ /1/g'
+```
 ### Referencias
 https://es.wikipedia.org/wiki/Unicode
 https://es.wikipedia.org/wiki/UTF-8

@@ -177,6 +177,12 @@ Si revisamos el desplegado en el stream, nos daremos cuenta de que se encuentra 
 picoCTF{nongshim.shrimp.crackers}
 ```
 ### Notas Adicionales
+Sin tener que entrar a Wire-Shark (usando ssldump):
 
+Aplicar el siguiente comando: 
+
+```shell
+ssldump -r "archivo.pcap" -k "llave.key" -d | grep pico -A 2
+```
 ### Referencias
 https://es.wikipedia.org/wiki/Seguridad_de_la_capa_de_transporte

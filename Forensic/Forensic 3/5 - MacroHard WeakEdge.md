@@ -64,7 +64,7 @@ Una vez lanzado, tenemos lo siguiente:
 
 ![[Screenshot_2025-04-26_21_44_49.png]]
 
-Después de andar revisando las carpetas, encontramos la siguiente cadena de caracteres, que aparentemente está codificada en base64:
+Después de andar revisando las carpetas, encontramos la siguiente cadena de caracteres (en Hidden dentro de slideMasters), que aparentemente está codificada en base64:
 
 ```
 Z m x h Z z o g c G l j b 0 N U R n t E M W R f d V 9 r b j B 3 X 3 B w d H N f c l 9 6 M X A 1 f Q
